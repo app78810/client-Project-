@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   <head>
+      <title>Star Of India</title>
+      <meta charset="UTF-8">
+	  
+	   <link type="text/css" rel="stylesheet" href="webcss.css">
+	   
+	   <script type="text/javascript" src="OrderDetail.js">
+			
+	   </script>
+	   
+   </head>
+   <body style="background-color:pink">
+   <div id="menu-bar">
+<div id="menu-content" class="clearfix">
+
+<ul  class="nav">
+<li class="menu"><a href="homePage.html">Home</a></li>	
+<li class="menu"><a href="menu.html">Menu</a></li>
+<li class="menu"><a href="Aboutus.html">About US</a></li>
+<li class="menu"><a href="ContactPage.html">Contact US</a></li>
+
+</ul> <!-- end ul#nav -->
+</div> <!-- end #menu-content-->
+</div>
+  <form name="order">
+   <div align = "center">
+	  <table border="0">
+                <tr>
+                        <td colspan="3">
+                        <p align="center"><b><font face="Arial">Star of India Specials for Two</font></b></td>
+                </tr>
+                <tr>
+                        <td>
+							<table>
+								<tr><td><input type="checkbox" value="pakora" id="pakora" name="rad"/><font face="Arial">Vegetable Pakora</font></td><td><font face="Arial">$5.00</font></td><td><input type="number" name="quant"  id="quant1"/></tr>
+                                <tr><td><input type="checkbox" value="nan" id="nan" name="rad"><font face="Arial">Nan</font></td><td><font face="Arial">$2.00</font></td><td><input type="number" name="quant"  id="quant2"  /></tr>
+                                <tr><td><input type="checkbox" value="paneer" id="paneer" name="rad"><font face="Arial">Sag Paneer</font></td><td><font face="Arial">$10.00</font></td><td><input type="number" name="quant"  id="quant3"/></tr>
+                                <tr><td><input type="checkbox" value="korma" id="korma" name="rad"><font face="Arial">Navratan Korma</font></td><td><font face="Arial">$15.00</font></td><td><input type="number" name="quant"  id="quant4"  /></tr>
+                                <tr><td><input type="checkbox" value="raita" id="raita" name="rad"><font face="Arial">Raita</font></td><td><font face="Arial">$4.00</font></td><td><input type="number" name="quant"  id="quant5" /></tr>
+                                <tr><td><input type="checkbox" value="rice" id="rice" name="rad"><font face="Arial">Rice</font></td><td><font face="Arial">$4.00</font></td><td><input type="number" name="quant"  id="quant6"  /></tr>			
+								<tr><td><input type="checkbox" value="samosa" id="samosa" name="rad"><font face="Arial">Chicken Samosa</font></td><td><font face="Arial">$8.00</font></td><td><input type="number" name="quant"  id="quant7" /></tr>
+                                <tr><td><input type="checkbox" value="garlic" id="garlic" name="rad"><font face="Arial">Garlic Nan</font></td><td><font face="Arial">$3.00</font></td><td><input type="number" name="quant"  id="quant8"  /></tr>
+                                <tr><td><input type="checkbox" value="tikka" id="tikka" name="rad"><font face="Arial">Chicken Tikka Masala</font></td><td><font face="Arial">$10.00</font></td><td><input type="number" name="quant"  id="quant9" /></tr>
+                                <tr><td><input type="checkbox" value="tandoori" id="tandoori" name="rad"><font face="Arial">Tandoori Chicken</font></td><td><font face="Arial">$12.00</font></td><td><input type="number" name="quant" id="quant10" /></tr>
+								<tr><td>&nbsp;</td></tr>
+								
+						   </table>              
+					   </td>
+                        
+			
+                </tr>
+				<tr><td></tr></td>
+				<tr><td align="center">
+				<input type="button" id="order" value="Place Order" onclick = "calculate()"/></td></tr>
+				<p id="errormsg"> </p>
+				
+        </table>
+		</div>
+   
+   </form>
+   <p id="out" align="center"><b><font face="Arial"></font></b></p>
+   </body>
+</html>

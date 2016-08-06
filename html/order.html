@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   <head>
+      <title>Star Of India</title>
+      <meta charset="UTF-8">
+	  
+	   <link type="text/css" rel="stylesheet" href="webcss.css">
+	   
+     <script type="text/javascript" src='script\lib\jquery-1.11.3.min.js'></script>
+	   <script type="text/javascript" src="script\order.js">
+			
+	   </script>
+	   
+   </head>
+   <body style="background-color:pink">
+   <div id="menu-bar">
+<div id="menu-content" class="clearfix">
+
+<ul  class="nav">
+<li class="menu"><a href="homePage.html">Home</a></li>	
+<li class="menu"><a href="menu.html">Menu</a></li>
+<li class="menu"><a href="Aboutus.html">About US</a></li>
+<li class="menu"><a href="ContactPage.html">Contact US</a></li>
+
+</ul> <!-- end ul#nav -->
+</div> <!-- end #menu-content-->
+</div>
+  <form name="order">
+   <div align = "center">
+	  <table border="0">
+                <tr>
+                        <td colspan="3">
+                        <p align="center"><b><font face="Arial">Star of India Specials for Two</font></b></td>
+                </tr>
+                <tr>
+                        <td>
+							<table>
+								<tr>
+                  <td>
+                    <input type="checkbox" value="pakora" id="pakora" name="rad"/>
+                    <font face="Arial">Vegetable Pakora</font>
+                  </td>
+                  <td>
+                    <span id='pakora_price'>$5.00</span>
+                  </td>
+                  <td>
+                    <input type='text' placeholder="Quantity" id='pakora_quan'>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox" value="nan" id="nan" name="rad">
+                    <font face="Arial">Nan</font>
+                  </td>
+                  <td>
+                    <span id='nan_price'>$2.00</span>
+                  </td>
+                  <td>
+                    <input type='text' placeholder="Quantity" id='nan_quan'>
+                  </td>
+                </tr>
+				<tr>
+                  <td>
+                    <input type="checkbox" value="Sag Paneer" id="paneer" name="rad"/>
+                    <font face="Arial">Sag Paneer</font>
+                  </td>
+                  <td>
+                    <span id='paneer_price'>$10.00</span>
+                  </td>
+                  <td>
+                    <input type='text' placeholder="Quantity" id='paneer_quan'>
+                  </td>
+                </tr>
+				
+				<tr>
+                  <td>
+                    <input type="checkbox" value="Korma" id="korma" name="rad"/>
+                    <font face="Arial">Navratna Korma</font>
+                  </td>
+                  <td>
+                    <span id='pakora_price'>$15.00</span>
+                  </td>
+                  <td>
+                    <input type='text' placeholder="Quantity" id='korma_quan'>
+                  </td>
+                </tr>
+				
+				<tr>
+                  <td>
+                    <input type="checkbox" value="raita" id="raita" name="rad"/>
+                    <font face="Arial">Raita</font>
+                  </td>
+                  <td>
+                    <span id='pakora_price'>$4.00</span>
+                  </td>
+                  <td>
+                    <input type='text' placeholder="Quantity" id='raita_quan'>
+                  </td>
+                </tr>
+				
+				<tr>
+                  <td>
+                    <input type="checkbox" value="rice" id="rice" name="rad"/>
+                    <font face="Arial">Rice</font>
+                  </td>
+                  <td>
+                    <span id='pakora_price'>$4.00</span>
+                  </td>
+                  <td>
+                    <input type='text' placeholder="Quantity" id='rice_quan'>
+                  </td>
+                </tr>
+				
+				<tr>
+                  <td>
+                    <input type="checkbox" value="samosa" id="samosa" name="rad"/>
+                    <font face="Arial">Chicken Samosa</font>
+                  </td>
+                  <td>
+                    <span id='pakora_price'>$8.00</span>
+                  </td>
+                  <td>
+                    <input type='text' placeholder="Quantity" id='samosa_quan'>
+                  </td>
+                </tr>
+
+				<tr>
+                  <td>
+                    <input type="checkbox" value="Garlic Nan" id="garlicNan" name="rad"/>
+                    <font face="Arial">Garlic Nan</font>
+                  </td>
+                  <td>
+                    <span id='pakora_price'>$3.00</span>
+                  </td>
+                  <td>
+                    <input type='text' placeholder="Quantity" id='garlic_quan'>
+                  </td>
+                </tr>
+				
+				<tr>
+                  <td>
+                    <input type="checkbox" value="Chicken Tikka masala" id="tikka" name="rad"/>
+                    <font face="Arial">Chicken Tikka masala</font>
+                  </td>
+                  <td>
+                    <span id='pakora_price'>$10.00</span>
+                  </td>
+                  <td>
+                    <input type='text' placeholder="Quantity" id='tikka_quan'>
+                  </td>
+                </tr>
+				
+				<tr>
+                  <td>
+                    <input type="checkbox" value="Tandoori Chicken" id="Tandoori" name="rad"/>
+                    <font face="Arial">Tandoori Chicken</font>
+                  </td>
+                  <td>
+                    <span id='pakora_price'>$12.00</span>
+                  </td>
+                  <td>
+                    <input type='text' placeholder="Quantity" id='Tandoori_quan'>
+                  </td>
+                </tr>
+				
+				<tr><td align="center">
+				<input type="button" id="order" value="Place Order"/></td></tr>
+				<p id="errormsg"> </p>
+				
+        </table>
+		</div>
+   
+   </form>
+   <p id="out" align="center"><b><font face="Arial"></font></b></p>
+   </body>
+</html>

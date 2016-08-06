@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="menuPage.xsl"?> <!-- parse the menu.xsl-->
+	
+<menu>
+	<vegdish>
+		<pakora>$5.00</pakora>
+		<nan>$2.00</nan>
+		<paneer>$10.00</paneer>
+		<korma>$15.00</korma>
+		<raita>$4.00</raita>
+		<rice>$4.00</rice>
+	</vegdish>
+	<nonveg>
+		<samosa>$8.00</samosa>
+		<garlicnan>$3.00</garlicnan>
+		<tikka>$10.00</tikka>
+		<chicken>$12.00</chicken>
+		<raita1>$4.00</raita1>
+		<rice1>$4.00</rice1>
+	</nonveg>
+</menu>
+
+
+
+
